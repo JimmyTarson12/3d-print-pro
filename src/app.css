@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin "@iconify/tailwind4";
-@plugin "flyonui";
+@plugin "flyonui" {
+    themes: light --default
+}
 
 @source "./node_modules/flyonui/dist/index.js";
