@@ -20,12 +20,12 @@
 		  		</div>
 			</div>
 	  	</div>
-	  <div id="logo-navbar-collapse" class="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full" >
-		<ul class="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
-		  <li><a href="#">Home</a></li>
-		  <li><a href="#">About</a></li>
-		  <li><a href="#">Careers</a></li>
-		</ul>
+	  	<div id="logo-navbar-collapse" class="md:navbar-end collapse hidden grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full" >
+			<ul class="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2">
+		  		<li><a href="#">Home</a></li>
+		  		<li><a href="#">About</a></li>
+		  		<li><a href="#">Careers</a></li>
+			</ul>
 	  	</div>
 	</div>
 </nav>
