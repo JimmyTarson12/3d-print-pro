@@ -4,12 +4,14 @@
 
     var animatedTitle: HTMLElement
 
-    const heroWords: string[] = ["Easy", "Simple", "Affordable"]
+    const heroWords: string[] = ["Easy", "Simple", "Affordable", "Effortless", "Accessible", "Convenient", "Reliable", "Seamless", "Intuitive"]
     let currentWordIndex: number = 0
 
     let titleAnimationIsDone: boolean = false
     onMount(() => {
-        startHeroAnimation()
+        setTimeout(() => {
+            startHeroAnimation()
+        }, 3000)
     })
 
     function startHeroAnimation() {
@@ -32,7 +34,7 @@
             onComplete: () => {
                 setTimeout(() => {
                     startHeroAnimation()
-                }, 2000)
+                }, 3000)
             }
         })
     }
@@ -51,7 +53,7 @@
 					<span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">Printing Made<br></span><span bind:this={animatedTitle} class="inline-block">{heroWords[currentWordIndex]}</span>
 				</h1>
 				<p class="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8">
-					Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.
+					3D printing doesn't have to be complicated. Our platform guides you through every step so you can spend less time figuring things out, and more time creating.
 				</p>
 
 				<div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
