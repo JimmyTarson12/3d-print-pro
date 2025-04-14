@@ -25,6 +25,8 @@
 		"vite": "^6.2.5"
 	},
 	"dependencies": {
-		"flyonui": "^2.1.0"
+		"animejs": "^4.0.1",
+		"flyonui": "^2.1.0",
+		"motion": "^12.6.5"
 	}
 }
